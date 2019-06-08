@@ -140,6 +140,6 @@ buildTextField(
         prefixText: prefix),
     style: TextStyle(color: Colors.amber, fontSize: 20),
     onChanged: f,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.numberWithOptions(decimal: true),
   ));
 }
